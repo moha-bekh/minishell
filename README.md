@@ -5,6 +5,24 @@ The goal of the project is to reproduce core shell behavior: parsing user input,
 expanding variables and wildcards, handling redirections and pipes, executing
 programs, and keeping interactive signal behavior close to Bash.
 
+> This code was written by hand and thought through with my own head, with all
+> its imperfections in code structure, algorithms, naming, and tradeoffs. It
+> belongs to the moment just before AI became the inevitable standard in daily
+> programming.
+>
+> Today I alternate between deep dives and tests before allowing myself to use
+> AI: I first make sure I understand the tool well enough to rely on it
+> responsibly.
+>
+> I also simply love coding, and I take less pleasure and satisfaction from
+> generating code than from building it myself. Even after all the effort spent
+> learning these tools before using them, I still sometimes feel a little less
+> legitimate when AI is involved.
+>
+> I am still proud of this project and grateful to have it as a vestige proving
+> my ability to think like a software engineer. It is a project where I pushed
+> myself far beyond my comfort zone and proved to myself that I was capable.
+
 ## Why this project matters
 
 Building a shell requires more than launching processes. This project touches
